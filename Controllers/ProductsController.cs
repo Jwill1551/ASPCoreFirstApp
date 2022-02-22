@@ -17,6 +17,7 @@ namespace ASPCoreFirstApp.Controllers
         {
             ViewBag.name = "Joshua";
             ViewBag.secretNumber = 13;
+            return View();
         }
     }
 }
