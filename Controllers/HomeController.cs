@@ -25,6 +25,7 @@ namespace ASPCoreFirstApp.Controllers
 
         public IActionResult Privacy()
         {
+            ViewBag.Message = "Be Careful About Privacy";
             return View();
         }
 
